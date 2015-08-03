@@ -1,0 +1,59 @@
+#text-container {
+	width: 99vw;
+	height: 98vh;
+	margin: auto;
+	border-style: solid;
+	border-width: 7px;
+	border-color: rgb(255, 126, 0);
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+	color: white;
+	z-index: 9999;
+}
+
+h2 {
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+	color: white;
+	z-index: 9999;
+}
+
+a {
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+	color: white;
+	z-index: 9999;
+}
+
+/* STARFIELD */
+
+body {
+	margin:0;
+	padding:0;
+	background-color:#343848;
+	font-size:0;
+	overflow:hidden;
+}
+
+div {
+	margin:0;
+	padding:0;
+	position: fixed;
+	overflow:hidden;
+	z-index:-1;
+}
+
+canvas {
+	background-color:#343848;
+	overflow:hidden;
+	z-index: -1;
+}
+
+/* STARFIELD ENDS */
