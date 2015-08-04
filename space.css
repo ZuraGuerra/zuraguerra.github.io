@@ -7,18 +7,24 @@
 	width: 100vw;
 	height: 100vh;
 	margin: auto;
+	/*
 	border-style: solid;
+	*/
 	border-width: 7px;
 	border-color: rgb(255, 126, 0);
 	box-sizing: border-box;
+	padding-top: 40vh;
 }
 
 h1 {
 	text-align: center;
-	font-family: Helvetica, sans-serif;
-	font-size: 20px;
-	color: white;
+	font-family: Eurostile, sans-serif;
+	font-size: 16px;
+	color: rgb(219, 236, 250);
 	z-index: 9999;
+	text-transform: uppercase;
+	letter-spacing: 0.2vw;
+	line-height: 30px;
 }
 
 i {
@@ -42,10 +48,24 @@ a {
 	text-align: center;
 	font-family: Helvetica, sans-serif;
 	font-size: 20px;
-	color: white;
+	color: rgb(219, 236, 250);
 	z-index: 9999;
 	text-decoration:none;
 	font-style: normal;
+}
+
+p {
+	z-index: 9999;
+}
+
+h3 {
+	text-align: center;
+	font-family: Pragmata TT, sans-serif;
+	font-size: 12px;
+	color: rgb(219, 236, 250);
+	font-weight: 700;
+	line-height:0px;
+	z-index: 9999;
 }
 
 /* STARFIELD */
